@@ -1,17 +1,30 @@
-# 💻 Início da Jornada - Sobre Mim
+# 🚀 Início da Jornada - Sobre Mim
 
-Meu primeiro projeto prático de **HTML e CSS**, feito para iniciar minha jornada como desenvolvedor front-end.  
-Aplicando tipografia moderna, contraste e micro animações suaves.
+Meu primeiro projeto prático no caminho para me tornar **Desenvolvedor Front-end**.  
+Construído com **HTML5 e CSS3**, com foco em tipografia moderna, contraste, micro animações e estrutura semântica.
 
-🌐 **Link do projeto:** [Clique para ver](https://hubrenanb.github.io/front-end-journey/)
+🔗 **Deploy:** [Visualizar Projeto Online](https://hubrenanb.github.io/renanwebjourney/)
 
-## 🛠️ Tecnologias
-- HTML5
-- CSS3
+---
+
+## 🧠 Aprendizados
+- Estrutura básica e semântica do HTML5  
+- Aplicação de fontes modernas (Poppins)  
+- Contraste e hierarquia visual  
+- Transições suaves (`transition: 0.3s`)  
+- Uso de sombras e bordas arredondadas  
+
+---
+
+## 🧰 Tecnologias Utilizadas
+- HTML5  
+- CSS3  
 - Google Fonts (Poppins)
 
-## ✨ Aprendizados
-- Estruturação semântica do HTML
-- Aplicação de fontes modernas
-- Uso de transições suaves (`transition: 0.3s`)
-- Criação de um layout visual limpo e responsivo
+---
+
+## ✨ Próximos Passos
+- Criar **Hero Section profissional** com cargo e botões interativos  
+- Adicionar **scroll suave e micro animações (AOS ou CSS)**  
+- Criar **cards de projetos** com hover e transição  
+- Evoluir para um **portfólio completo e responsivo**

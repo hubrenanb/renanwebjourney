@@ -7,11 +7,16 @@
 
 /* Fonte global */
 body {
-  background-color: #000;
-  color: #fff;
+  background-color: rgb(255, 255, 255);
+  color: #fff9f9;
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 /* Cabeçalho */
@@ -24,6 +29,8 @@ h1 {
   font-size: 40px;
   font-weight: 600;
   letter-spacing: 1px;
+  color: #00d8ff;
+  text-shadow: 0 0 10px rgba(0, 216, 255, 0.3);
 }
 
 /* Seção Sobre Mim */
@@ -64,6 +71,8 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
+  margin-top: 10px;
+
 }
 
 button:hover {
@@ -77,4 +86,18 @@ footer {
   margin-top: 50px;
   font-size: 14px;
   color: #888;
+}
+
+@media (max-width: 600px) {
+  #sobremim {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 16px;
+  }
 }
