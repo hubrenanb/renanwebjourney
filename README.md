@@ -1,30 +1,32 @@
-# 🚀 Início da Jornada - Sobre Mim
+# 🚀 Renan Bernardo | Front-end Developer
 
-Meu primeiro projeto prático no caminho para me tornar **Desenvolvedor Front-end**.  
-Construído com **HTML5 e CSS3**, com foco em tipografia moderna, contraste, micro animações e estrutura semântica.
+Este é o meu projeto pessoal **Renan Web Journey**, criado para praticar e mostrar minha evolução como desenvolvedor front-end.
 
-🔗 **Deploy:** [Visualizar Projeto Online](https://hubrenanb.github.io/renanwebjourney/)
+## 🧩 Estrutura atual
 
----
+- **Hero Section:** com nome, função e links para GitHub e LinkedIn.
+- **Sobre Mim:** texto de apresentação e foto com design minimalista.
+- **Tecnologias (em construção):** será adicionada na próxima etapa.
 
-## 🧠 Aprendizados
-- Estrutura básica e semântica do HTML5  
-- Aplicação de fontes modernas (Poppins)  
-- Contraste e hierarquia visual  
-- Transições suaves (`transition: 0.3s`)  
-- Uso de sombras e bordas arredondadas  
+## 💡 Tecnologias utilizadas
 
----
-
-## 🧰 Tecnologias Utilizadas
 - HTML5  
-- CSS3  
-- Google Fonts (Poppins)
+- CSS3 (responsivo e com foco em minimalismo e contraste azul elétrico)  
+- Font Awesome para ícones  
+
+## 🌐 Deploy
+
+O projeto está publicado via **GitHub Pages**:  
+👉 [Acesse aqui](https://hubrenanb.github.io/renanwebjourney/)
 
 ---
 
-## ✨ Próximos Passos
-- Criar **Hero Section profissional** com cargo e botões interativos  
-- Adicionar **scroll suave e micro animações (AOS ou CSS)**  
-- Criar **cards de projetos** com hover e transição  
-- Evoluir para um **portfólio completo e responsivo**
+### 🛠️ Próximos passos
+
+- Adicionar seção **Tecnologias** com ícones interativos.  
+- Criar **animação de scroll suave** entre seções.  
+- Melhorar **responsividade e contraste visual**.
+
+---
+
+✍️ *Atualizado em: Novembro de 2025*
