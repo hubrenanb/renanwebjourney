@@ -61,12 +61,50 @@
         <div class="about-image">
             <img src="avatar.png" alt="Foto de Renan Bernardo" />
         </div>
-    </div>
+</section>
+
+<section id="contato" class="contact">
+    <h2>Fale comigo</h2>
+    <p>Me conte sobre sua ideia, dúvida ou oportunidade. Vou responder com carinho e atenção</p>
+
+    <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-field">
+            <label form="name">NOME</label>
+            <input type="text" id="name" placeholder="Seu nome" required>
+            <small class="error" data-error-for="name"></small>
+        </div>
+        
+        <div class="form-field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+            <small class="error" data-error-for="email"></small>
+        </div>
+
+        <div class="form-field">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+            <small class="error" data-error-for="message"></small>"
+        </div>
+
+        <button type="submit" class="btn">Enviar</button>
+
+        <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
+
+        <div class="contact-alt">
+            <a href="hub.renanb@gmail.com" class="btn btn-outline">Enviar por e-mail</a>
+            <a href="https://linkedin.com/in/renanbernardo" target="_blank" class="btn btn-outline">LinkedIn</a>
+        </div>
+        </form>
+
+
 </section>
 
 <section id="tecnologias" class="tech">
     <h2>Tecnologias</h2>
     <p>Ferramentas que utilizo e estou aperfeiçoando constantemente</p>
+
+
+    
 
     <div class="tech-grid">
         <div class="tech-item"><i class="fab fa-html5"></i><span>HTML</span></div>
@@ -84,7 +122,5 @@
 
     <footer>© 2025 Renan Bernardo. Todos os direitos reservados.</footer>
 </body>
-
-
 
 </html>
