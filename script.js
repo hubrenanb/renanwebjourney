@@ -1,4 +1,7 @@
+
+
 // === Scroll suave entre seções ===
+
 
 document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener('click', function(e) {
@@ -16,7 +19,6 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
 });
 
 // === Animações de entrada (fade-in) ===
-
 const sections = document.querySelectorAll('section');
 
 const observer = new IntersectionObserver(entries => {
@@ -29,8 +31,7 @@ const observer = new IntersectionObserver(entries => {
 
 sections.forEach(section => observer.observe(section));
 
-// === Validação do formulário e mensagem de sucesso ===
-
+// === Validação do formulário e envio com EmailJS ===
 const form = document.getElementById('contact-form');
 const feedback = document.getElementById('form-feedback');
 
@@ -71,12 +72,16 @@ form.addEventListener('submit', (e) => {
 
   if (!valid) return;
 
-  feedback.textContent = 'Mensagem enviada! Em breve entro em contato.';
-  feedback.style.color = '#00d8ff';
-
-  form.reset();
-
-  setTimeout(() => {
-    feedback.textContent = '';
-  }, 4000);
+  // Envio real via EmailJS
+  emailjs.sendForm('SEU_SERVICE_ID', 'SEU_TEMPLATE_ID', '#contact-form')
+    .then(() => {
+      feedback.textContent = 'Mensagem enviada com sucesso!';
+      feedback.style.color = '#00d8ff';
+      form.reset();
+      setTimeout(() => feedback.textContent = '', 4000);
+    }, (error) => {
+      feedback.textContent = 'Erro ao enviar. Tente novamente.';
+      feedback.style.color = '#ff6b6b';
+      console.error('Erro:', error);
+    });
 });
