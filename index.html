@@ -17,6 +17,17 @@
 
   <!-- Arquivo CSS -->
   <link rel="stylesheet" href="style.css" />
+
+  <!-- API para e-mail -->
+
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("xvekdIJWShDd6gHHC"); 
+  })();
+</script>
+
+
  </head>
 
 <body>
@@ -28,7 +39,7 @@
             <p>Transformando ideias em interfaces modernas e interativas</p>
 
             <div class="hero-buttons">
-                <a href="#projetos" class="btn btn-glow">Projetos</a>
+                <a href="#sobremim" class="btn btn-glow">Sobre Mim</a>
                 <a href="#contato" class="btn btn-outline">Contato</a>
             </div>
         
@@ -55,7 +66,7 @@
             <h2>Sobre Mim</h2>
             <p>Sou <strong>Renan Bernardo</strong>, um desenvolvedor front-end apaixonado por criar experiências digitais limpas, modernas e funcionais. Tenho foco em transformar ideias em interfaces que unem um design, usabilidade e performance</p>
             <p>Atualmente estou aprofundando meus conhecimentos em <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, com o objetivo de construir aplicações responsivas e visualmente envolventes.</p>
-            <a href="#projetos" class="btn">Ver Projetos</a>
+            <a href="#tecnologias" class="btn">Ver Tecnologias</a>
         </div>
 
         <div class="about-image">
@@ -69,8 +80,8 @@
 
     <form id="contact-form" class="contact-form" novalidate>
         <div class="form-field">
-            <label form="name">NOME</label>
-            <input type="text" id="name" placeholder="Seu nome" required>
+            <label for="name">NOME</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" required>
             <small class="error" data-error-for="name"></small>
         </div>
         
@@ -91,7 +102,7 @@
         <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
 
         <div class="contact-alt">
-            <a href="hub.renanb@gmail.com" class="btn btn-outline">Enviar por e-mail</a>
+            <a href="mailto:hub.renanb@gmail.com" class="btn btn-outline">Enviar por e-mail</a>
             <a href="https://www.linkedin.com/in/renan-bernardo-b0144a222/" target="_blank" class="btn btn-outline">LinkedIn</a>
         </div>
         </form>
@@ -116,7 +127,7 @@
     </div>
 </section>
 
-<!-- JavaScrip -->
+<!-- JavaScript -->
 
 <script src="script.js"></script>
 
