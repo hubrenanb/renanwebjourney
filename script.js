@@ -1,8 +1,4 @@
-
-
 // === Scroll suave entre seções ===
-
-
 document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener('click', function(e) {
     e.preventDefault();
@@ -73,7 +69,7 @@ form.addEventListener('submit', (e) => {
   if (!valid) return;
 
   // Envio real via EmailJS
-  emailjs.sendForm('service_w0rm5k9', 'template_yst274n', '#contact-form')
+  emailjs.sendForm('service_ex8jmg6', 'template_yst274n', '#contact-form')
     .then(() => {
       feedback.textContent = 'Mensagem enviada com sucesso!';
       feedback.style.color = '#00d8ff';
