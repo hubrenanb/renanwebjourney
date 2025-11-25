@@ -73,7 +73,7 @@ form.addEventListener('submit', (e) => {
   if (!valid) return;
 
   // Envio real via EmailJS
-  emailjs.sendForm('SEU_SERVICE_ID', 'SEU_TEMPLATE_ID', '#contact-form')
+  emailjs.sendForm('service_w0rm5k9', 'template_yst274n', '#contact-form')
     .then(() => {
       feedback.textContent = 'Mensagem enviada com sucesso!';
       feedback.style.color = '#00d8ff';
