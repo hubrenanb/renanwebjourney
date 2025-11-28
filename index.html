@@ -14,124 +14,151 @@
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 
-
   <!-- Arquivo CSS -->
   <link rel="stylesheet" href="style.css" />
 
-  <!-- API para e-mail -->
-
+  <!-- EmailJS -->
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-<script>
-  (function(){
-    emailjs.init("xvekdIJWShDd6gHHC"); 
-  })();
-</script>
-
-
- </head>
+  <script>
+    (function () {
+      emailjs.init("xvekdIJWShDd6gHHC");
+    })();
+  </script>
+</head>
 
 <body>
+
+    <!-- ================= HERO ================= -->
     <section class="hero">
         <div class="hero-content">
-        <div class="hero-text">
-            <h1>Renan Bernardo</h1>
-            <h2>Front-end Developer</h2>
-            <p>Transformando ideias em interfaces modernas e interativas</p>
+            <div class="hero-text">
+                <h1>Renan Bernardo</h1>
+                <h2>Front-end Developer</h2>
+                <p>Transformando ideias em interfaces modernas e interativas</p>
 
-            <div class="hero-buttons">
-                <a href="#sobremim" class="btn btn-glow">Sobre Mim</a>
-                <a href="#contato" class="btn btn-outline">Contato</a>
+                <div class="hero-buttons">
+                    <a href="#sobremim" class="btn btn-glow">Sobre Mim</a>
+                    <a href="#projetos" class="btn btn-outline">Projetos</a>
+                </div>
+
+                <div class="hero-icons">
+                    <a href="https://github.com/hubrenanb" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/renan-bernardo-b0144a222/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
             </div>
-        
-        <div class="hero-icons">
-            <a href="https://github.com/hubrenanb" target="_blank" aria-label="GitHub">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://linkedin.com/in/renanbernardo" target="_blank" aria-label="LinkedIn">
-                <i class="fab fa-linkedin"></i>
-            </a>    
-        </div>
-        </div>
 
-        <div class="hero-image">
-            <img src="avatar.png" alt="Foto ou ilustração - Renan Bernardo" />
-        </div>
+            <div class="hero-image">
+                <img src="img/renan-dev.png" alt="Foto ou ilustração - Renan Bernardo" />
+            </div>
         </div>
     </section>
 
-      <!-- ===== SOBRE MIM ===== -->
-
-<section id="sobremim" class="about">
+    <!-- ================= SOBRE MIM ================= -->
+    <section id="sobremim" class="about">
         <div class="about-text">
             <h2>Sobre Mim</h2>
-            <p>Sou <strong>Renan Bernardo</strong>, um desenvolvedor front-end apaixonado por criar experiências digitais limpas, modernas e funcionais. Tenho foco em transformar ideias em interfaces que unem um design, usabilidade e performance</p>
-            <p>Atualmente estou aprofundando meus conhecimentos em <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>, com o objetivo de construir aplicações responsivas e visualmente envolventes.</p>
-            <a href="#tecnologias" class="btn">Ver Tecnologias</a>
+
+            <p>Sou <strong>Renan Bernardo</strong>, desenvolvedor front-end apaixonado por criar experiências digitais limpas, modernas e funcionais. Gosto de transformar ideias em interfaces que combinam <strong>design, usabilidade e performance</strong>.</p>
+
+            <p>Atualmente aprofundo meus conhecimentos em <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong> e iniciando minha jornada com <strong>React</strong>. Meu foco é evoluir continuamente, construir projetos reais e expandir minhas habilidades para me tornar um desenvolvedor <strong>fullstack</strong> no futuro.</p>
+
+            <p>A cada projeto busco melhorar minhas habilidades e oferecer soluções que realmente fazem a diferença.</p>
+
+            <a href="#tecnologias" class="btn">Tecnologias</a>
         </div>
 
         <div class="about-image">
-            <img src="avatar.png" alt="Foto de Renan Bernardo" />
+            <img src="img/renan-dev.png" alt="Foto de Renan Bernardo" />
         </div>
-</section>
+    </section>
 
-<section id="contato" class="contact">
-    <h2>Fale comigo</h2>
-    <p>Me conte sobre sua ideia, dúvida ou oportunidade. Vou responder com carinho e atenção</p>
+    <!-- ================= TECNOLOGIAS ================= -->
+    <section id="tecnologias" class="tech">
+        <h2>Tecnologias</h2>
+        <p>Ferramentas que utilizo e estou aperfeiçoando constantemente</p>
 
-    <form id="contact-form" class="contact-form" novalidate>
-        <div class="form-field">
-            <label for="name">NOME</label>
-            <input type="text" id="name" name="name" placeholder="Seu nome" required>
-            <small class="error" data-error-for="name"></small>
-        </div>
-        
-        <div class="form-field">
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
-            <small class="error" data-error-for="email"></small>
+        <div class="tech-grid">
+            <div class="tech-item"><i class="fab fa-html5"></i><span>HTML</span></div>
+            <div class="tech-item"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+            <div class="tech-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+            <div class="tech-item"><i class="fab fa-react"></i><span>React</span></div>
+            <div class="tech-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+            <div class="tech-item"><i class="fab fa-github"></i><span>GitHub</span></div>
         </div>
 
-        <div class="form-field">
-            <label for="message">Mensagem</label>
-            <textarea id="message" name="message" rows="5" placeholder="Sua mensagem" required></textarea>
-            <small class="error" data-error-for="message"></small>
+        <!-- Botão para seguir o fluxo natural -->
+        <a href="#projetos" class="btn" style="margin-top: 40px;">Ver Projetos</a>
+
+    </section>
+
+    <!-- ================= PROJETOS ================= -->
+    <section id="projetos" class="projects">
+        <h2>Projetos</h2>
+        <p>Trabalhos e criações que refletem minha evolução.</p>
+
+        <div class="project-grid">
+
+            <div class="project-item">
+                <i class="fas fa-scissors"></i>
+                <h3>Ateliê de Costura</h3>
+                <p>Site responsivo desenvolvido para um ateliê de costura, focado em um visual minimalista, elegante e acolhedor.</p>
+                <a href="link-do-site" target="_blank" class="btn">Ver Projeto</a>
+            </div>
+
+            <div class="project-item">
+                <i class="fab fa-python"></i>
+                <h3>Consumo e Análise de XML com Python</h3>
+                <p>Ferramenta inteligente para otimizar a análise de arquivos XML. Publicado no GitHub.</p>
+                <a href="https://github.com/hubrenanb/xml-s2240-extractor" target="_blank" class="btn">Ver Repositório</a>
+            </div>
+
         </div>
 
-        <button type="submit" class="btn">Enviar</button>
+        <!-- Botão para seguir o fluxo -->
+        <a href="#contato" class="btn btn-outline" style="margin-top: 40px;">Fale Comigo</a>
+    </section>
 
-        <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
+    <!-- ================= CONTATO ================= -->
+    <section id="contato" class="contact">
+        <h2>Fale comigo</h2>
+        <p>Me conte sobre sua ideia, dúvida ou oportunidade. Vou responder com carinho e atenção.</p>
 
-        <div class="contact-alt">
-            <a href="mailto:hub.renanb@gmail.com" class="btn btn-outline">Enviar por e-mail</a>
-            <a href="https://www.linkedin.com/in/renan-bernardo-b0144a222/" target="_blank" class="btn btn-outline">LinkedIn</a>
-        </div>
+        <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-field">
+                <label for="name">NOME</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                <small class="error" data-error-for="name"></small>
+            </div>
+
+            <div class="form-field">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                <small class="error" data-error-for="email"></small>
+            </div>
+
+            <div class="form-field">
+                <label for="message">Mensagem</label>
+                <textarea id="message" name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+                <small class="error" data-error-for="message"></small>
+            </div>
+
+            <button type="submit" class="btn">Enviar</button>
+
+            <p class="form-feedback" id="form-feedback" aria-live="polite"></p>
+
+            <div class="contact-alt">
+                <a href="mailto:hub.renanb@gmail.com" class="btn btn-outline">Enviar por e-mail</a>
+                <a href="https://www.linkedin.com/in/renan-bernardo-b0144a222/" target="_blank" class="btn btn-outline">LinkedIn</a>
+            </div>
         </form>
-
-
-</section>
-
-<section id="tecnologias" class="tech">
-    <h2>Tecnologias</h2>
-    <p>Ferramentas que utilizo e estou aperfeiçoando constantemente</p>
-
-
-    
-
-    <div class="tech-grid">
-        <div class="tech-item"><i class="fab fa-html5"></i><span>HTML</span></div>
-        <div class="tech-item"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
-        <div class="tech-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
-        <div class="tech-item"><i class="fab fa-react"></i><span>React</span></div>
-        <div class="tech-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
-        <div class="tech-item"><i class="fab fa-github"></i><span>GitHub</span></div>
-    </div>
-</section>
-
-<!-- JavaScript -->
-
-<script src="script.js"></script>
+    </section>
 
     <footer>© 2025 Renan Bernardo. Todos os direitos reservados.</footer>
-</body>
 
+    <script src="script.js"></script>
+</body>
 </html>

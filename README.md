@@ -1,32 +1,48 @@
-# 🚀 Renan Bernardo | Front-end Developer
+# 🚀 Renan Web Journey | Portfólio & Laboratório
 
-Este é o meu projeto pessoal **Renan Web Journey**, criado para praticar e mostrar minha evolução como desenvolvedor front-end.
+Desenvolvido por: **Renan Bernardo** | Front-end Developer
 
-## 🧩 Estrutura atual
-
-- **Hero Section:** com nome, função e links para GitHub e LinkedIn.
-- **Sobre Mim:** texto de apresentação e foto com design minimalista.
-- **Tecnologias (em construção):** será adicionada na próxima etapa.
-
-## 💡 Tecnologias utilizadas
-
-- HTML5  
-- CSS3 (responsivo e com foco em minimalismo e contraste azul elétrico)  
-- Font Awesome para ícones  
-
-## 🌐 Deploy
-
-O projeto está publicado via **GitHub Pages**:  
-👉 [Acesse aqui](https://hubrenanb.github.io/renanwebjourney/)
+Este é o meu projeto pessoal, um laboratório digital criado para praticar, documentar e expor minha evolução contínua no desenvolvimento web.
 
 ---
 
-### 🛠️ Próximos passos
+## 🛠️ Status Atual (V. 1.0)
 
-- Adicionar seção **Tecnologias** com ícones interativos.  
-- Criar **animação de scroll suave** entre seções.  
-- Melhorar **responsividade e contraste visual**.
+A estrutura base do portfólio foi concluída com foco em minimalismo e performance.
+
+### 🏗️ Estrutura Base Implementada:
+
+* **Hero Section:** Apresentação clara com nome, função e CTAs.
+* **Links Rápidos:** Integração direta com **GitHub** 🐙, **LinkedIn** 🔗 e **Projetos** 💡.
+* **Sobre Mim:** Seção de apresentação pessoal com foto minimalista e design *clean*.
+
+### 💡 Stack Tecnológica (Front-end):
+* **HTML5**
+* **CSS3** (Com foco em design responsivo 📱, minimalismo e contraste com **Azul Elétrico** ⚡)
+* **Font Awesome** (Para ícones funcionais).
 
 ---
 
-✍️ *Atualizado em: Novembro de 2025*
+## 🌐 Acesse o Projeto
+
+O projeto está em produção via GitHub Pages!
+
+👉 **Deploy:** [https://hubrenanb.github.io/renanwebjourney/]
+
+---
+
+## 📬 Contato e Oportunidades 🤝
+
+Tenho interesse em oportunidades de **Desenvolvimento de Softwares** e Front-end.
+
+* **E-mail:** `hub.renanb@gmail.com`
+
+---
+
+## 🗺️ Próximos Passos (Roadmap)
+
+Fase de projetos de cliente em andamento!
+
+* **Próxima Feature:** Codificação completa do site do **Atelier de Costura 'CKaizen'** 🧵 (Projeto Real).
+
+*Última Atualização: 27 de Novembro de 2025.*
